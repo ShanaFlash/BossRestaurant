@@ -18,8 +18,8 @@ include_once 'product-action.php'; //including controller
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>221 | Menu</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/SmartResLogo.png">
+    <title>Boss Smart Restaurant</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@ include_once 'product-action.php'; //including controller
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/221b-2.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/SmartResLogo.png" width="50" height="50" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                        <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only"></span></a> </li>
@@ -116,7 +116,7 @@ include_once 'product-action.php'; //including controller
                         
                          <div class="widget widget-cart">
                                 <div class="widget-heading">
-                                    <h3 class="widget-title text-dark">
+                                    <h3 class="widget-title text-red">
                                  Your Shopping Cart
                               </h3>
 							  				  
@@ -142,7 +142,7 @@ foreach ($_SESSION["cart_item"] as $item)  // fetch items define current into se
 										
                                         <div class="form-group row no-gutter">
                                             <div class="col-xs-8">
-                                                 <input type="text" class="form-control b-r-0" value=<?php echo "₹".$item["price"]; ?> readonly id="exampleSelect1">
+                                                 <input type="text" class="form-control b-r-0" value=<?php echo "$".$item["price"]; ?> readonly id="exampleSelect1">
                                                    
                                             </div>
                                             <div class="col-xs-4">
@@ -165,7 +165,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 <div class="widget-body">
                                     <div class="price-wrap text-xs-center">
                                         <p>TOTAL</p>
-                                        <h3 class="value"><strong><?php echo "₹".$item_total; ?></strong></h3>
+                                        <h3 class="value"><strong><?php echo "$".$item_total; ?></strong></h3>
                                         <p>Free Shipping</p>
                                         <a href="checkout.php?res_id=<?php echo $_GET['res_id'];?>&action=check"  class="btn theme-btn btn-lg">Checkout</a>
                                     </div>
@@ -183,7 +183,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                         <div class="menu-widget" id="2">
                             <div class="widget-heading">
                                 <h3 class="widget-title text-dark">
-                              POPULAR ORDERS Delicious hot food! <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
+                              POPULAR Materials For Your Restaurant <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
                               <i class="fa fa-angle-right pull-right"></i>
                               <i class="fa fa-angle-down pull-right"></i>
                               </a>
@@ -219,7 +219,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                         </div>
                                         <!-- end:col -->
                                         <div class="col-xs-12 col-sm-12 col-lg-4 pull-right item-cart-info"> 
-										<span class="price pull-left" >₹<?php echo $product['price']; ?></span>
+										<span class="price pull-left" >$<?php echo $product['price']; ?></span>
 										  <input class="b-r-0" type="text" name="quantity"  style="margin-left:30px;" value="1" size="2" />
 										  <input type="submit" class="btn theme-btn" style="margin-left:40px;" value="Add to cart" />
 										</div>
@@ -246,14 +246,14 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                 <!-- end:row -->
             </div>
             <!-- end:Container -->
-             <!-- start: FOOTER -->
+        <!-- start: FOOTER -->
         <footer class="footer">
             <div class="container">
                 <!-- top footer statrs -->
                 <div class="row top-footer">
-                    <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <img src="images/221b-2.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
-                    <div class="col-xs-12 col-sm-2 about color-gray">
+                    <div class="col-xs-12 col-sm-3 footer-logo-block color-yellow">
+                        <a href="#"> <img src="images/SmartResLogo.png" width="100" height="100" alt="Footer logo"> </a> <span>Order Delivery &amp; Sucess Restaurant </span> </div>
+                    <div class="col-xs-12 col-sm-2 about color-red">
                         <h5>About Us</h5>
                         <ul>
                             <li><a href="about_us.php">About us</a> </li>
@@ -266,8 +266,8 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 address color-gray">
                             <h5>Address</h5>
-                            <p>221 Bakers street </p>
-                            <h5>Phone: <a href="tel:+080000012222">011 1010 1010</a></h5> </div> 
+                            <p>World Restautant </p>
+                            <h5>Phone: <a href="tel:+080000012222">999 999 9999</a></h5> </div> 
                     </div>
                 </div>
                 <!-- bottom footer ends -->

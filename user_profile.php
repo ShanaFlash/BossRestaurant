@@ -16,8 +16,8 @@ $logedInUsername = $_SESSION['user']['username'];
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>221 | User Profile</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/SmartResLogo.png">
+    <title>Boss Smart Restaurant | User Profile</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -85,7 +85,7 @@ $logedInUsername = $_SESSION['user']['username'];
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/221b-2.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/SmartResLogo.png" width="50" height="50" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>

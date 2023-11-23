@@ -1,10 +1,10 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
--- Database: `online_rest`
+-- Database: `smart_rest`
 
-CREATE DATABASE IF NOT EXISTS `221b` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `221b`;
+CREATE DATABASE IF NOT EXISTS `smart_rest` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `smart_rest`;
 
 -- Table structure for table `admin`
 
@@ -101,7 +101,7 @@ CREATE TABLE IF NOT EXISTS `restaurant` (
 -- Dumping data for table `restaurant`
 
 INSERT INTO `restaurant` (`rs_id`, `c_id`, `title`, `email`, `phone`, `url`, `o_hr`, `c_hr`, `o_days`, `address`, `image`, `date`) VALUES
-(88, 5, 'worldbestrestaurant', 'bossRestaurant@gmail.com', '12345 67890 ', '221b.com', '7am', '4pm', 'mon-tue', ' Palace', '5ad74ce37c383.jpg', '2020-04-18 13:49:23');
+(48, 5, '221b Bakers Street', '221b@gmail.com', '12345 67890 ', '221b.com', '7am', '4pm', 'mon-tue', ' Palace', '5ad74ce37c383.jpg', '2020-04-18 13:49:23');
 
 -- Table structure for table `res_category`
 

@@ -4,7 +4,7 @@
 $servername = "localhost"; //server
 $username = "root"; //username
 $password = ""; //password
-$dbname = "221b";  //database
+$dbname = "smart_rest";  //database
 
 // Create connection
 $db = mysqli_connect($servername, $username, $password, $dbname); // connecting 

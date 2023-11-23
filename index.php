@@ -14,8 +14,8 @@ session_start(); //start temp session until logout/browser closed
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Smart Restaurant</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/SmartResLogo.png">
+    <title>Boss Smart Restaurant</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@ session_start(); //start temp session until logout/browser closed
             <!-- /.navbar -->
         </header>
         <!-- banner part starts -->
-        <section class="hero bg-image" data-image-src="images/img/mainFood.jpg">
+        <section class="hero bg-image" data-image-src="images/img/Bossimage1.jpeg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
                     <h1>Management Your Restaurnt </h1>
@@ -139,7 +139,7 @@ session_start(); //start temp session until logout/browser closed
 															<div class="content">
 																<h5><a href="dishes.php?res_id='.$r['rs_id'].'">'.$r['title'].'</a></h5>
 																<div class="product-name">'.$r['slogan'].'</div>
-																<div class="price-btn-block"> <span class="price">₹'.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
+																<div class="price-btn-block"> <span class="price">$'.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
 															</div>
 															
 														</div>
@@ -212,9 +212,9 @@ session_start(); //start temp session until logout/browser closed
             <div class="container">
                 <!-- top footer statrs -->
                 <div class="row top-footer">
-                    <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <img src="images/SmartResLogo.png" width="60" height="60" alt="Footer logo"> </a> <span>Order Delivery &amp; Sucess Restaurant </span> </div>
-                    <div class="col-xs-12 col-sm-2 about color-gray">
+                    <div class="col-xs-12 col-sm-3 footer-logo-block color-yellow">
+                        <a href="#"> <img src="images/SmartResLogo.png" width="100" height="100" alt="Footer logo"> </a> <span>Order Delivery &amp; Sucess Restaurant </span> </div>
+                    <div class="col-xs-12 col-sm-2 about color-red">
                         <h5>About Us</h5>
                         <ul>
                             <li><a href="about_us.php">About us</a> </li>

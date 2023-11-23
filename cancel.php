@@ -13,8 +13,8 @@ session_start(); //start temp session until logout/browser closed
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>221 | Contact us</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/SmartResLogo.png">
+    <title>Boss Smart Restaurant</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@ session_start(); //start temp session until logout/browser closed
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/221b-2.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/SmartResLogo.png" width="50" height="50" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -123,14 +123,15 @@ session_start(); //start temp session until logout/browser closed
             </section>
                                 <hr>
                                 <br><br><br>
-       <!-- start: FOOTER -->
-       <footer class="footer">
+      
+        <!-- start: FOOTER -->
+        <footer class="footer">
             <div class="container">
                 <!-- top footer statrs -->
                 <div class="row top-footer">
-                    <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <img src="images/221b-2.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> </div>
-                    <div class="col-xs-12 col-sm-2 about color-gray">
+                    <div class="col-xs-12 col-sm-3 footer-logo-block color-yellow">
+                        <a href="#"> <img src="images/SmartResLogo.png" width="100" height="100" alt="Footer logo"> </a> <span>Order Delivery &amp; Sucess Restaurant </span> </div>
+                    <div class="col-xs-12 col-sm-2 about color-red">
                         <h5>About Us</h5>
                         <ul>
                             <li><a href="about_us.php">About us</a> </li>
@@ -143,8 +144,8 @@ session_start(); //start temp session until logout/browser closed
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 address color-gray">
                             <h5>Address</h5>
-                            <p>221 Bakers street </p>
-                            <h5>Phone: <a href="tel:+080000012222">011 1010 1010</a></h5> </div> 
+                            <p>World Restautant </p>
+                            <h5>Phone: <a href="tel:+080000012222">999 999 9999</a></h5> </div> 
                     </div>
                 </div>
                 <!-- bottom footer ends -->
