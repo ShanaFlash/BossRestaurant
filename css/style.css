@@ -981,7 +981,7 @@ How it works section
 -----------------------------------*/
 
 .how-it-works {
-    background-image: url(../images/city.png), url(../images/pattern.png);
+    background-image: url(../images/footImage.jpeg), url(../images/pattern.png);
     background-repeat: repeat-x, repeat;
     background-position: bottom, center;
     padding: 90px 0;
@@ -992,7 +992,6 @@ How it works section
     position: absolute;
     right: 20px;
     top: -30px;
-    background: url(../images/peanuts.png);
     width: 150px;
     height: 51px;
     content: "";

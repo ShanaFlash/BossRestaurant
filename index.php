@@ -74,7 +74,7 @@ session_start(); //start temp session until logout/browser closed
         <section class="hero bg-image" data-image-src="images/img/Bossimage1.jpeg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
-                    <h1>Management Your Restaurnt </h1>
+                    <h1>Management Your Restaurnt</h1>
                     <h5 class="font-white space-xs">Management your restaurent all in a Tech Way</h5>
                     <div class="banner-form">
                     </div>
